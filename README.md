@@ -11,7 +11,7 @@
 				種類
 			</th>
 			<th>
-				パラメータ名/メソッド名
+				パラメータ名
 			</th>
 			<th>
 				TemplateView
@@ -234,9 +234,40 @@
 				-
 			</td>
 		</tr>
+	</tbody>
+</table>
+
+
+<table>
+	<thead>
+		<tr>
+			<th>
+				種類
+			</th>
+			<th>
+				メソッド名
+			</th>
+			<th>
+				TemplateView
+			</th>
+			<th>
+				View
+			</th>
+			<th>
+				RedirectView
+			</th>
+			<th>
+				ContextMixin
+			</th>
+			<th>
+				TemplateResponseMixin
+			</th>
+		</tr>
+	</thead>
+	<tbody>
 		<tr>
 			<th rowspan="17">
-				Method
+				Attributes
 			</th>
 			<td>
 				_allowed_methods

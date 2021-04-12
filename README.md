@@ -1,0 +1,262 @@
+# Matrix table for django-Class-Based-View
+
+
+<style>
+table{
+  margin:0 auto;
+  border-radius:10px;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border:1px solid #666;
+  border-spacing: 0;
+  overflow:hidden;
+}
+td,th{
+  border-bottom:1px solid #666;
+}
+td,th{
+  padding:10px;
+}
+th{
+  background:#EFEFEF;
+}
+table tbody tr:last-child th,
+table tbody tr:last-child td{
+  border-bottom: none;
+}
+th + th,td{
+  border-left:1px solid #666;
+}
+</style>
+<table>
+	<thead>
+		<tr>
+			<th>
+				種類
+			</th>
+			<th>
+				パラメータ名
+			</th>
+			<th>
+				TemplateView
+			</th>
+			<th>
+				View
+			</th>
+			<th>
+				RedirectView
+			</th>
+			<th>
+				ContextMixin
+			</th>
+			<th>
+				TemplateResponseMixin
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th rowspan="10">
+				Attributes
+			</th>
+			<td>
+				content_type 
+			</td>
+			<td>
+				●
+			</td>
+			<td>
+				-
+			</td>
+			<td>
+				-
+			</td>
+			<td>
+				-
+			</td>
+			<td>
+				●
+			</td>
+		</tr>
+		<tr>
+			<td>
+				extra_context
+			</td>
+			<td>
+				●
+			</td>
+			<td>
+				-
+			</td>
+			<td>
+				-
+			</td>
+			<td>
+				●
+			</td>
+			<td>
+				-
+			</td>
+		</tr>
+		<tr>
+			<td>
+				http_method_names
+			</td>
+			<td>
+				●
+			</td>
+			<td>
+				●
+			</td>
+			<td>
+				●
+			</td>
+			<td>
+				-
+			</td>
+			<td>
+				-
+			</td>
+		</tr>
+		<tr>
+			<td>
+				response_class
+			</td>
+			<td>
+				●
+			</td>
+			<td>
+				-
+			</td>
+			<td>
+				-
+			</td>
+			<td>
+				-
+			</td>
+			<td>
+				●
+			</td>
+		</tr>
+		<tr>
+			<td>
+				template_engine
+			</td>
+			<td>
+				●
+			</td>
+			<td>
+				-
+			</td>
+			<td>
+				-
+			</td>
+			<td>
+				-
+			</td>
+			<td>
+				●
+			</td>
+		</tr>
+		<tr>
+			<td>
+				template_name
+			</td>
+			<td>
+				●
+			</td>
+			<td>
+				-
+			</td>
+			<td>
+				-
+			</td>
+			<td>
+				-
+			</td>
+			<td>
+				●
+			</td>
+		</tr>
+		<tr>
+			<td>
+				pattern_name
+			</td>
+			<td>
+				-
+			</td>
+			<td>
+				-
+			</td>
+			<td>
+				●
+			</td>
+			<td>
+				-
+			</td>
+			<td>
+				-
+			</td>
+		</tr>
+		<tr>
+			<td>
+				permanent
+			</td>
+			<td>
+				-
+			</td>
+			<td>
+				-
+			</td>
+			<td>
+				●
+			</td>
+			<td>
+				-
+			</td>
+			<td>
+				-
+			</td>
+		</tr>
+		<tr>
+			<td>
+				query_string
+			</td>
+			<td>
+				-
+			</td>
+			<td>
+				-
+			</td>
+			<td>
+				●
+			</td>
+			<td>
+				-
+			</td>
+			<td>
+				-
+			</td>
+		</tr>
+		<tr>
+			<td>
+				url
+			</td>
+			<td>
+				-
+			</td>
+			<td>
+				-
+			</td>
+			<td>
+				●
+			</td>
+			<td>
+				-
+			</td>
+			<td>
+				-
+			</td>
+		</tr>
+	</tbody>
+</table>

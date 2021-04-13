@@ -3939,7 +3939,6 @@
 	</tbody>
 </table>
 
-
 <table>
 	<thead>
 		<tr>
@@ -4131,6 +4130,9 @@
 			</td>
 			<td>
 				●
+			</td>
+			<td>
+				-
 			</td>
 			<td>
 				-

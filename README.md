@@ -6,6 +6,11 @@ Here is a matrix table of Django (version 3.1) class-based view features from th
 
 It summarizes the data in **Base/Dates/Detail/Edit/List/Views/Mixins**.
 
+If the table is difficult to read due to the large number of class-based views, please also refer to the following Excel file.
+
+/file/Django-Class-Based-Views.xlsx
+
+
 ## Base Class-Based-View
 
 
